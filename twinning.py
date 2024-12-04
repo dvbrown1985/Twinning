@@ -36,7 +36,7 @@ with container1:
          caption="",  # No caption for the image
          clamp=False, 
          channels="RGB", 
-         use_column_width=True  # Scale the image to fit the column width
+         use_container_width=True  # Scale the image to fit the column width
     )
 
 # Add the logo to the app's header
